@@ -9,8 +9,11 @@
     "test": "mocha --require @babel/register"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
-    "@lono/require": "^0.0.1",
+    "@lono/require": "^0.0.6",
     "sequelize": "^5.21.13",
     "sk2": "^1.1.1"
   },
@@ -22,11 +25,8 @@
     "@babel/preset-env": "^7.10.1",
     "@babel/register": "^7.10.1",
     "mocha": "^6.2.3",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.4"
   },
-  "files": [
-    "lib"
-  ],
   "repository": {},
   "keywords": [
     "lono",
