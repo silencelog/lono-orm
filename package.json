@@ -13,7 +13,7 @@
     "dist"
   ],
   "dependencies": {
-    "@lono/require": "^0.0.6",
+    "@lono/require": "^0.0.7",
     "sequelize": "^5.21.13",
     "sk2": "^1.1.1"
   },
